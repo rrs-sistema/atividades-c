@@ -2,10 +2,11 @@
 #include <vector>
 #include <locale.h>
 
+
 static int imprimirRU(int* maiorNumero, int* menorNumero) {
     // Imprime o maior e menor valor encontrado
-    printf("Maior digito informado eh: %d\n", *maiorNumero);
-    printf("Menor digito informado eh: %d\n", *menorNumero);
+    printf("Maior digito informado é: %d\n", *maiorNumero);
+    printf("Menor digito informado é: %d\n", *menorNumero);
     return 0;
 }
 
@@ -15,7 +16,7 @@ int main() {
 
     char ru[20]{}; // Criamos a variavel para armazena a Ru como string
     int digitos[20]{};    // Esse vetor será usado para armazenar os dígitos da Ru
-    int* maiorNumero, * menorNumero; // Esss dois ponteiros são para guardar o maior e menor dígito
+    int *maiorNumero, *menorNumero; // Esss dois ponteiros são para guardar o maior e menor dígito
 
     // Aqui solicitamos ao usuário que informe o número do seu RU
     printf("Por favor, informe seu RU: ");
@@ -28,16 +29,16 @@ int main() {
         digitos[i] = ru[i] - '0'; // Converte caractere para inteiro
     }
 
-    // Inicializa os ponteiros maior e menor para o primeiro elemento do vetor
+    // Nas duas linhas abaixo criamos os ponteiros para pegar o maior e menor valor informado
     maiorNumero = &digitos[0];
     menorNumero = &digitos[0];
 
-    // Percorre o vetor para encontrar o maior e menor valor usando ponteiros
+    // Criamos um laço de repetição para rercorrer o vetor e encontrar o maior e menor valor usando ponteiros
     for (int i = 1; i < tamanho; ++i) {
-        if (*(digitos + i) > *maiorNumero) {
-            menorNumero = (digitos + i);
+        if (*(digitos + i) > *maiorNumero) {// Aqui verificamos o maior digito informado no RU
+            maiorNumero = (digitos + i);
         }
-        if (*(digitos + i) < *menorNumero) {
+        if (*(digitos + i) < *menorNumero) {// Aqui verificamos o menor digito informado no RU
             menorNumero = (digitos + i);
         }
     }

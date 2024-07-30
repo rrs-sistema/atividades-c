@@ -3,7 +3,7 @@
 #include <memory>
 #include <locale.h>
 
-static const int TAMANHO = 2; // Aqui definimos a quantidade de registro
+static const int TAMANHO = 10; // Aqui definimos a quantidade de registro
 
 // Define a estrutura para armazenar os dados dos alunos
 typedef struct {

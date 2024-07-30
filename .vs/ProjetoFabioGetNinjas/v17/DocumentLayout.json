@@ -3,24 +3,8 @@
   "WorkspaceRootPath": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34BA503A-91E6-41E4-983C-F72C10B3A998}|Aplicacao01\\Aplicacao01.vcxproj|C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\Aplicacao01\\01_InverterNome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{34BA503A-91E6-41E4-983C-F72C10B3A998}|Aplicacao01\\Aplicacao01.vcxproj|solutionrelative:Aplicacao01\\01_InverterNome.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4852FDF3-F232-4C7E-B65C-7A7063F74B60}|05_cadastro_arquivo_csv\\05_cadastro_arquivo_csv.vcxproj|C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\05_cadastro_arquivo_csv\\05_CadastroArquivoCSV.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4852FDF3-F232-4C7E-B65C-7A7063F74B60}|05_cadastro_arquivo_csv\\05_cadastro_arquivo_csv.vcxproj|solutionrelative:05_cadastro_arquivo_csv\\05_CadastroArquivoCSV.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4B7857F9-E526-4463-89C0-46725FA33BE8}|04_CalculoPotencia\u00E7\u00E3o\\04_CalculoPotencia\u00E7\u00E3o.vcxproj|C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\04_CalculoPotencia\u00E7\u00E3o\\04_CalculoPotencia\u00E7\u00E3o.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4B7857F9-E526-4463-89C0-46725FA33BE8}|04_CalculoPotencia\u00E7\u00E3o\\04_CalculoPotencia\u00E7\u00E3o.vcxproj|solutionrelative:04_CalculoPotencia\u00E7\u00E3o\\04_CalculoPotencia\u00E7\u00E3o.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0885CCA7-D2F6-4F9E-ABCE-E488A19024C4}|03_CalcHexa\\03_CalcHexa.vcxproj|C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\03_CalcHexa\\03_CalcHexagono.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0885CCA7-D2F6-4F9E-ABCE-E488A19024C4}|03_CalcHexa\\03_CalcHexa.vcxproj|solutionrelative:03_CalcHexa\\03_CalcHexagono.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{535CC71A-0237-4150-AFD2-FDADC9045418}|Aplicacao02\\Aplicacao02.vcxproj|C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\Aplicacao02\\02_MaiorMenoDigito.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{535CC71A-0237-4150-AFD2-FDADC9045418}|Aplicacao02\\Aplicacao02.vcxproj|solutionrelative:Aplicacao02\\02_MaiorMenoDigito.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "01_InverterNome.cpp",
-              "DocumentMoniker": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\Aplicacao01\\01_InverterNome.cpp",
-              "RelativeDocumentMoniker": "Aplicacao01\\01_InverterNome.cpp",
-              "ToolTip": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\Aplicacao01\\01_InverterNome.cpp",
-              "RelativeToolTip": "Aplicacao01\\01_InverterNome.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAADAAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-29T14:22:51.313Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "02_MaiorMenoDigito.cpp",
-              "DocumentMoniker": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\Aplicacao02\\02_MaiorMenoDigito.cpp",
-              "RelativeDocumentMoniker": "Aplicacao02\\02_MaiorMenoDigito.cpp",
-              "ToolTip": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\Aplicacao02\\02_MaiorMenoDigito.cpp",
-              "RelativeToolTip": "Aplicacao02\\02_MaiorMenoDigito.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAACIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-29T14:23:55.5Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "03_CalcHexagono.cpp",
-              "DocumentMoniker": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\03_CalcHexa\\03_CalcHexagono.cpp",
-              "RelativeDocumentMoniker": "03_CalcHexa\\03_CalcHexagono.cpp",
-              "ToolTip": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\03_CalcHexa\\03_CalcHexagono.cpp",
-              "RelativeToolTip": "03_CalcHexa\\03_CalcHexagono.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-29T14:05:44.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "04_CalculoPotencia\u00E7\u00E3o.cpp",
-              "DocumentMoniker": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\04_CalculoPotencia\u00E7\u00E3o\\04_CalculoPotencia\u00E7\u00E3o.cpp",
-              "RelativeDocumentMoniker": "04_CalculoPotencia\u00E7\u00E3o\\04_CalculoPotencia\u00E7\u00E3o.cpp",
-              "ToolTip": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\04_CalculoPotencia\u00E7\u00E3o\\04_CalculoPotencia\u00E7\u00E3o.cpp",
-              "RelativeToolTip": "04_CalculoPotencia\u00E7\u00E3o\\04_CalculoPotencia\u00E7\u00E3o.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAACIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-29T14:36:00.136Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "05_CadastroArquivoCSV.cpp",
               "DocumentMoniker": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\05_cadastro_arquivo_csv\\05_CadastroArquivoCSV.cpp",
               "RelativeDocumentMoniker": "05_cadastro_arquivo_csv\\05_CadastroArquivoCSV.cpp",
               "ToolTip": "C:\\src\\repository\\estudos\\fabi_getninjas\\Aplicacao01\\05_cadastro_arquivo_csv\\05_CadastroArquivoCSV.cpp",
               "RelativeToolTip": "05_cadastro_arquivo_csv\\05_CadastroArquivoCSV.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAnAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-07-29T20:07:08.284Z",
+              "WhenOpened": "2024-07-30T05:54:18.606Z",
               "EditorCaption": ""
             }
           ]

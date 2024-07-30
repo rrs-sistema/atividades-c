@@ -32,7 +32,7 @@ static int imprimirNomeInvertido(Aluno* aluno) {
     }
     nomeInvertido[len] = '\0'; // Adicionando o terminador de string
 
-    printf("Esse eh o nome invertido: %s\n", nomeInvertido);
+    printf("Esse é o nome invertido: %s\n", nomeInvertido);
 
     // Liberando a memória alocada
     return 0;

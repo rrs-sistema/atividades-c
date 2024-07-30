@@ -3,7 +3,7 @@
 #include <locale.h>
 
 // Função para calcular a área e o perímetro de um hexágono
-void calc_hexa(float l, float* area, float* perimetro) {
+static void calc_hexa(float l, float* area, float* perimetro) {
     *perimetro = 6 * l;
     *area = (3 * sqrt(3) * l * l) / 2;
 }
@@ -22,13 +22,13 @@ int main() {
     float lado;
     float area, perimetro;
     printf("Por favor, informe o comprimento do lado do hexágono : \n");
-    printf("Voce pode informar um valor negativo para sair: \n");
+    printf("Você pode informar um valor negativo para sair: \n\n");
 
     while (100) { // Loop infinito até que uma condição de parada seja encontrada
         (void)scanf("%f", &lado);
 
         if (lado < 0) {
-            printf("Valor negativo detectado. Encerrando o programa.\n");
+            printf("\nOPS! Você digitou um número negativo. Estamos finalizando o programa.\n");
             break;
         }
 
