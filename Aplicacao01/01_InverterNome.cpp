@@ -2,30 +2,30 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <locale.h>
 
 using namespace std;
 
-// Estrutura para armazenar nome e Ru
+// Aqui criamos uma estrutura básica para armazenar o nome e Ru do aluno
 struct Aluno {
     char nome[100];
     int ru;
 };
 
-
 static int imprimirRU(Aluno* aluno) {
-    // Verificando se a Ru é par ou ímpar
+    // Aqui estamos verificando se a Ru informado é par ou ímpar
     if (aluno->ru % 2 == 0) {
-        printf("O RU informado eh par.\n");
+        printf("O RU informado é par.\n");
     }
     else {
-        printf("O RU informado eh impar.\n");
+        printf("O RU informado é impar.\n");
     }
     return 0;
 }
 
 static int imprimirNomeInvertido(Aluno* aluno) {
     // Imprimindo o nome de trás para frente (invertido)
-    char nomeInvertido[100];
+    char nomeInvertido[100]{};
     int len = strlen(aluno->nome);
     for (int i = 0; i < len; i++) {
         nomeInvertido[i] = aluno->nome[len - i - 1];
@@ -39,12 +39,15 @@ static int imprimirNomeInvertido(Aluno* aluno) {
 }
 
 int main() {
+    //Essa função setlocale é usada para definir, modificar ou consultar algumas ou todas as informações de localidade do programa atual
+    setlocale(LC_ALL, "Portuguese");
+
     // Criando um ponteiro para o registro
     Aluno* aluno = (Aluno*)malloc(sizeof(Aluno));
 
     // Aqui verificamos se a alocação de memória foi realizada com sucesso
     if (aluno == NULL) {
-        printf("Ops! Erro ao alocar memória.\n");
+        printf("Ops! Erro ao alocar a memória.\n");
         return 1;
     }
 
@@ -61,7 +64,7 @@ int main() {
 
     imprimirNomeInvertido(aluno);// Chama a função para imprimir o nome invertido
 
-    // Aqui precisamos libera a memória que foia antes alocada
+    // Aqui precisamos liberar a memória que foi dantes alocada
     free(aluno);
 
     return 0;

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <locale.h>
 
 static int imprimirRU(int* maiorNumero, int* menorNumero) {
     // Imprime o maior e menor valor encontrado
@@ -9,8 +10,11 @@ static int imprimirRU(int* maiorNumero, int* menorNumero) {
 }
 
 int main() {
-    char ru[20]; // Criamos a variavel para armazena a Ru como string
-    int digitos[20];    // Esse vetor será usado para armazenar os dígitos da Ru
+    //Essa função setlocale é usada para definir, modificar ou consultar algumas ou todas as informações de localidade do programa atual
+    setlocale(LC_ALL, "Portuguese");
+
+    char ru[20]{}; // Criamos a variavel para armazena a Ru como string
+    int digitos[20]{};    // Esse vetor será usado para armazenar os dígitos da Ru
     int* maiorNumero, * menorNumero; // Esss dois ponteiros são para guardar o maior e menor dígito
 
     // Aqui solicitamos ao usuário que informe o número do seu RU

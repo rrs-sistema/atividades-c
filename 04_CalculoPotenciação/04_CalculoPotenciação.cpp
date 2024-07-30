@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <locale.h>
 
 // Função recursiva para calcular a potenciação
 static double potencia(double base, int expoente) {
@@ -17,6 +18,8 @@ static double potencia(double base, int expoente) {
 }
 
 int main() {
+    //Essa função setlocale é usada para definir, modificar ou consultar algumas ou todas as informações de localidade do programa atual
+    setlocale(LC_ALL, "Portuguese");
     double base;
     int expoente;
 
