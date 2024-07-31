@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <iostream>
 #include <vector>
 #include <locale.h>
@@ -12,7 +14,7 @@ static int imprimirRU(int* maiorNumero, int* menorNumero) {
 
 int main() {
     //Essa função setlocale é usada para definir, modificar ou consultar algumas ou todas as informações de localidade do programa atual
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, ".UTF8");
 
     char ru[20]{}; // Criamos a variavel para armazena a Ru como string
     int digitos[20]{};    // Esse vetor será usado para armazenar os dígitos da Ru
@@ -20,7 +22,7 @@ int main() {
 
     // Aqui solicitamos ao usuário que informe o número do seu RU
     printf("Por favor, informe seu RU: ");
-    (void)scanf("%s", ru);
+    scanf_s("%s", ru, (unsigned)_countof(ru));
 
     int tamanho = strlen(ru); // Calcula o tamanho da string
 

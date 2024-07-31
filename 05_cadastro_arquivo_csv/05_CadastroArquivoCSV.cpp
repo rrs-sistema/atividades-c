@@ -1,14 +1,17 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <memory>
 #include <locale.h>
 
-static const int TAMANHO = 10; // Aqui definimos a quantidade de registro
+
+static const int TAMANHO = 2; // Aqui definimos a quantidade de registro
 
 // Define a estrutura para armazenar os dados dos alunos
 typedef struct {
     char nome[100];
-    char ru[10];
+    char ru[20];
     char telefone[20];
     char email[120];
 } Aluno;
@@ -59,7 +62,7 @@ void static recebeInformacao(Aluno alunos[TAMANHO]) {
 
 int main() {
     //Essa função setlocale é usada para definir, modificar ou consultar algumas ou todas as informações de localidade do programa atual
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, ".UTF8");
     Aluno alunos[TAMANHO]{};
     char nomeArquivo[25];
     

@@ -1,1 +1,4 @@
-﻿
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Aplicacao02.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  02_MaiorMenoDigito.cpp
+C:\src\repository\estudos\fabi_getninjas\Aplicacao01\Aplicacao02\02_MaiorMenoDigito.cpp(25,17): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Aplicacao02.vcxproj -> C:\src\repository\estudos\fabi_getninjas\Aplicacao01\x64\Debug\02_MaiorMenoDigito.exe

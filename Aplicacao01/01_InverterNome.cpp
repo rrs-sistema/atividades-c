@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -40,7 +41,7 @@ static int imprimirNomeInvertido(Aluno* aluno) {
 
 int main() {
     //Essa função setlocale é usada para definir, modificar ou consultar algumas ou todas as informações de localidade do programa atual
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, ".UTF8");
 
     // Criando um ponteiro para o registro
     Aluno* aluno = (Aluno*)malloc(sizeof(Aluno));
@@ -53,7 +54,8 @@ int main() {
 
     // Vamos solicitar que o usuário digite o RU e o seu nome
     printf("Por favor, informe seu RU: ");
-    (void)scanf("%d", &aluno->ru);
+    //(void)scanf("%d", &aluno->ru);
+    scanf_s("%d", &aluno->ru);
     (void)getchar(); // Aqui precisamos realizar a limpeza do buffer do enter após o número
     
     printf("Por favor, informe seu nome: ");

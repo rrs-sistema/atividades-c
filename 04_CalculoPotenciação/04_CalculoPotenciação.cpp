@@ -1,3 +1,5 @@
+#define _CRT_SECURE_NO_WARNINGS
+
 #include <stdio.h>
 #include <math.h> // Para usar a função sqrt
 #include <locale.h>
@@ -21,7 +23,7 @@ static double calculaPotencia(double base, int expoente) {
 
 int main() {
     //Essa função setlocale é usada para definir, modificar ou consultar algumas ou todas as informações de localidade do programa atual
-    setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, ".UTF8");
 
     double base;
     int expoente;
